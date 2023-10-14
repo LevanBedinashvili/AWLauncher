@@ -1,0 +1,13 @@
+{
+  "props": [],
+  "components": {
+    "downloader": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 304.0,
+      "y": 160.0,
+      "props": {
+        "threadCount": "4"
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "props": [],
+  "components": {
+    "dowloand_sborka_sucsessful": {
+      "type": "script\\TimerScript",
+      "x": 336,
+      "y": 384,
+      "props": {
+        "interval": 3000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "text_off_start_game": {
+      "type": "script\\TimerScript",
+      "x": 112,
+      "y": 288,
+      "props": {
+        "interval": 2000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "update_ini": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 432,
+      "y": 240,
+      "props": {
+        "threadCount": "4"
+      }
+    },
+    "start_game": {
+      "type": "script\\TimerScript",
+      "x": 192,
+      "y": 96,
+      "props": {
+        "interval": 5000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 16,
+      "y": 96,
+      "props": {
+        "interval": 1500,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "timerAlt": {
+      "type": "script\\TimerScript",
+      "x": 96,
+      "y": 96,
+      "props": {
+        "interval": 5000,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 96,
+      "y": 16,
+      "props": {
+        "path": "",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "downloader": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 176,
+      "y": 16,
+      "props": {
+        "threadCount": "4"
+      }
+    },
+    "update": {
+      "type": "script\\TimerScript",
+      "x": 16,
+      "y": 16,
+      "props": {
+        "interval": 30000,
+        "repeatable": true,
+        "autoStart": false
+      }
+    }
+  }
+}

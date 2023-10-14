@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+    
+    
+    <method name="doDowloadClickL">
+      <browse url="https://www.facebook.com/groups/awellenada" url-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doImageAltMouseDownLeft">
+      <browse url="https://www.youtube.com/watch?v=qn80WFGM2Ns&amp;feature=youtu.be&amp;fbclid=IwAR2WETUYjILhhUKCW9oVjhepfcJKERo0_MjJBXwEcxTmf3M-J5F3hl_EDBU" url-type="string"/>
+    </method>
+  </class>
+</root>
